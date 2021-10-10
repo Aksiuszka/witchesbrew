@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.uppermenu-all{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background: black;
+    color:white;
+    height: 50px;
+    width:100%;
+    overflow:hidden;
+}
+.upmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.upmenu ul{
+    display:flex;
+   
+}
+
+.upmenu li{
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: 'IM Fell English', serif;
+    font-size: 19px;
+    padding: 20px 30px;
+
+}
+.usermenu{
+    margin-right: -250px;
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    float:right;
+    overflow: hidden;
+    
+}
+.usermenu li{
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: 'IM Fell English', serif;
+    font-size: 19px;
+    padding: 20px 30px;
+}
+.search-box{
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    border-radius:40px;
+    background-color: black;
+    text-decoration: none;
+    
+}
+.search-box:hover > .search-text{
+    width: 200px;
+    padding: 0px;
+}
+.search-btn{
+    color:white;
+    float: right;
+    width: 35px;
+    height:35px;
+    background-color: black;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-text{
+    font-family: 'IM Fell English', serif;
+    letter-spacing:1px;
+    background: none;
+    border:none;
+    outline:none;
+    float: left;
+    color: black;
+    font-size: 11px;
+    padding:2px;
+    font-size: 14px;
+    transition: 0.5s;
+    line-height:30px;
+    width:0px;
+}
+.shoppingcart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:30px;
+    font-size:30px;
+    
+}
+.heart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:30px;
+    font-size:30px;
+    
+}
